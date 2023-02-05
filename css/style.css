@@ -1,0 +1,188 @@
+body{
+    background-color: darkslategrey;
+}
+
+.gameboy{
+    padding: 0;
+    width: fit-content;
+    height: fit-content;
+    margin: 0 auto;
+}
+
+#top-part{
+    border: 5px;
+    border-color: rgb(243, 6, 54);
+    border-style: solid;
+    background-color: rgb(235, 34, 74);
+    margin: 0 auto;
+    height: 300px;
+    width: 550px;
+    border-radius: 15px;
+}
+#game-title{
+    color: whitesmoke;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 25px;
+    margin: 5px auto;
+    width: fit-content;
+    height: fit-content;
+}
+#screen{
+    border: 5px;
+    border-style: double;
+    border-color: rgb(70, 68, 63);
+    background-color: ghostwhite;
+    height: 250px;
+    width: 80%;
+    margin: 0 auto;
+    border-radius: 20px;
+}
+#UI{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    height: 30px;
+    font-size: 25px;
+}
+#score{
+    display: inline-block;
+    width: 100px;
+    margin-left: 5px;
+}
+#time{
+    display: inline-block;
+    width: 135px;
+    text-align: right;
+}
+#LP{
+    display: inline-block;
+    text-align: right;
+    width: 185px;
+    margin-right: 0;
+}
+#alert{
+    border-style: groove;
+    border-color: crimson;
+    background-color: ghostwhite;
+    width: fit-content;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 25px;
+    color: black;
+    margin: 50px auto 0 auto;
+}
+#game-screen{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 25px;
+    margin-left: 20px;
+}
+p{
+    margin: 0;
+}
+#required-word{
+    margin-top: 50px;
+}
+#your-word{
+    width: 20px;
+    border: none;
+    outline: none;
+}
+#input{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    border-color: brown;
+    height: 35px;
+    font-size: 25px;
+    width: 200px;
+}
+
+
+#mid-part{
+    height: 20px;
+    width: 500px;
+    margin: 0 auto;
+    background-color: rgb(37, 37, 37);
+    border-radius: 5px;
+}
+#mid-part-mid{
+    height: 100%;
+    width: 80%;
+    margin: 0 auto;
+    background-color: black;
+}
+    
+#bot-part{
+    border: 5px;
+    border-color: white;
+    border-style: solid;
+    background-color: rgb(240, 240, 240);
+    margin: 0 auto;
+    height: 300px;
+    width: 550px;
+    padding: 0;
+    border-radius: 15px;
+}
+#board{
+    background-color: darkgray;
+    margin: 15px auto;
+    height: 275px;
+    width: 525px;
+    padding: 0;
+    border-radius: 15px;
+}
+#none-eff{
+    width: 525px;
+    height: 10px;
+}
+#power{
+    margin: 10px 10px 0 auto;
+    width: fit-content;
+    height: fit-content;
+}
+#power-btn{
+    color: whitesmoke;
+    text-align: center;
+    padding: 10px 10px;
+    background-color: crimson;
+    border-radius: 8px;
+}
+#keyboard{
+    text-align: center;
+    color: ghostwhite;
+    font-size: 15px;
+    padding: 10px 0;
+}
+.letter{
+    border: 1px;
+    border-style: outset;
+    border-color: rgb(194, 27, 60);
+    border-radius: 5px;
+    display: inline-block;
+    background-color: crimson;
+    width: 33px;
+    height: 29px;
+    padding-top: 9px;
+}
+/* Chưa tìm ra cách khắc phục */
+#keyboard-toprow{
+    width: fit-content;
+    height: 37px;
+    margin: 25px auto 5px auto;
+}
+#keyboard-midrow{
+    width: fit-content;
+    height: 37px;
+    margin: 0 auto 5px auto;
+}
+#keyboard-botrow{
+    width: fit-content;
+    height: 37px;
+    margin: 0 auto 5px auto; 
+}
+#keyboard-space{
+    border: 1px;
+    border-style: outset;
+    border-color: rgb(194, 27, 60);
+    border-radius: 5px;
+    text-align: center;
+    background-color: crimson;
+    width: 190px;
+    height: 37px;
+    margin: 0 auto 5px auto; 
+}
